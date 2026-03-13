@@ -7,7 +7,7 @@ export default function Arena() {
       {/* Caption */}
       <div>
         <h1 className="font-display text-2xl">REAL ARENA</h1>
-        <p className="text-muted-foreground mt-1 max-w-lg text-2xl">
+        <p className="text-muted-foreground mt-1 max-w-lg text-sm">
           The faster way to climb. Wager your REAL Points, win, and your Arena Multiplier does the rest.
         </p>
         <motion.button
