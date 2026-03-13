@@ -7,14 +7,14 @@ export default function Arena() {
       {/* Caption */}
       <div>
         <h1 className="font-display text-2xl">REAL ARENA</h1>
-        <p className="text-sm text-muted-foreground mt-1 max-w-lg">
+        <p className="text-muted-foreground mt-1 max-w-lg text-2xl">
           The faster way to climb. Wager your REAL Points, win, and your Arena Multiplier does the rest.
         </p>
         <motion.button
           className="mt-3 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary/10 text-primary border border-primary/20 font-display text-sm hover:bg-primary/15 transition-all"
           whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
-        >
+          whileTap={{ scale: 0.98 }}>
+          
           Go Wager <ArrowRight className="w-4 h-4" />
         </motion.button>
       </div>
@@ -23,8 +23,8 @@ export default function Arena() {
       <motion.div
         className="relative rounded-2xl border border-border bg-card overflow-hidden"
         initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
+        animate={{ opacity: 1, y: 0 }}>
+        
         <div className="absolute top-0 right-0 w-48 h-48 bg-[hsl(30_40%_30%/0.03)] rounded-full blur-[80px] pointer-events-none" />
         <div className="absolute inset-0 metallic-sheen pointer-events-none" />
 
@@ -47,6 +47,6 @@ export default function Arena() {
           </div>
         </div>
       </motion.div>
-    </div>
-  );
+    </div>);
+
 }
